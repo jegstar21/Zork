@@ -1,0 +1,43 @@
+Room
+contains:
+name
+description
+item
+container name
+creature name
+trigger
+border
+
+Trigger:
+type
+command name
+condition object
+string to print
+action
+
+Condition:
+has field
+object name
+owner
+status
+
+Item:
+name
+writing
+status
+turnon
+
+Turnon:
+print
+action
+
+Container:
+name
+status
+accept
+trigger
+
+border:
+direction
+name
+
